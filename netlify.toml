@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  NITRO_PRESET = "netlify"
 
 # Nuxt 3 on Netlify is automatically detected. 
 # Nitro will use the 'netlify' preset by default.
