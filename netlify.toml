@@ -5,7 +5,5 @@
 [build.environment]
   NODE_VERSION = "20"
 
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
+# Nuxt 3 on Netlify is automatically detected. 
+# Nitro will use the 'netlify' preset by default.
