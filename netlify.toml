@@ -5,9 +5,6 @@
 [build.environment]
   NODE_VERSION = "20"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs" # Though specific to Next, Netlify handles Nuxt 3 automatically via Nitro.
-
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
